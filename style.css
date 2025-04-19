@@ -1,0 +1,304 @@
+body {
+    margin: 0px;
+    font-family: Helvetica, Arial, sans-serif;
+    border: border-box;
+}
+
+/**nav1**/
+
+.nav-bar1 {
+    height: 36px;
+    background-color: #f5f5f5;
+    padding: 0px 48px;
+    display: flex;
+}
+
+.nav-logo1 {
+    margin-right: auto;
+}
+.mj-icon {
+    width: 17px;
+    height: 17px;
+    margin-top: 10px;
+    
+}
+
+.nav-listing p{
+    display: inline;
+    font-weight: 600;
+    gap: 40px;
+    margin-top: 9px;
+}
+
+.nav-listing{
+    display: flex;
+    font-size: 0.75rem;
+    gap: 13px;
+}
+
+/**nav2**/
+
+.nav-bar2 {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.nike-icon {
+    width: 75px;
+    height: 75px;
+    margin-left: 35px;
+}
+
+.nav-bar2-listing p {
+    display: inline;
+    gap: 50px;
+    margin: 20px;
+}
+
+.nav-bar2-listing {
+    font-weight: 550;   
+    margin-left: 340px;
+    gap: 30px;
+}
+
+.search-input {
+    border-radius: 50px;
+    margin-left: 160px;
+    border: none;
+    height: 30px;
+    background-color: #f5f5f5;;
+}
+
+.nav-bar2-search input {
+    font-weight: bold;
+    font-size: small;
+    padding-left: 20px;
+}
+.heart-fav-icon {
+    height: 26px;
+    width: 25px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.shopping-bag-icon {
+    height: 20px;
+    width: 20px;
+    padding-left: 10px;
+}
+
+.nav-bar3 {
+    height: 55px;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;                                           
+    
+}
+
+.nav-bar3 p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 200;
+    margin-bottom: 15px;
+}
+
+.sales-p1 {
+    padding-top: 10px;
+    font-size: 16px;
+    line-height: 1.75;
+
+}
+
+.sales-p2 {
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.nav-bar4 {
+    height: 247px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 13px;
+
+}
+
+.mj-icon2 {
+    width: 91px;
+    height: 84px;
+    margin-bottom: 10px;
+    
+}
+
+
+.nav-bar4-listing p {
+    font-size: 16px;
+    font-weight: 500;
+    display: inline;
+    margin-right: 30px;
+    font-weight: 550;
+}
+
+/**hero section**/
+
+.hero-section {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.hero-section_image-jordan {
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+}
+
+.hero-section2 {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.hero-section2-p1 {
+    margin: 12px 0px -48px;
+    font-weight: 550;
+}
+
+.hero-section2-p2 {
+    font-size: 43px;
+    padding-top: 10px;
+    font-weight: 700;
+}
+
+.hero-section2-p3 {
+    font-size: 19Px;
+    margin-top: -23px;
+    font-weight: 500;
+}
+
+.hero-section2-button {
+    color: white;
+    background-color: black;
+    flex-wrap: wrap;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+/**hero section 3**/
+
+.hero-section3-essentials {
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.hero-section4 {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.box {
+    height: 500px;
+    width: 400px;
+
+}
+
+.box p {
+    font-weight: 355;
+    font-size: 18px;
+
+}
+
+.box-image {
+    height: 460px;
+    background-size: contain;
+}
+
+
+/** footer**/ 
+
+.footer-panel1-line {
+    margin-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+hr {
+    border: none;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: rgb(221, 223, 223);
+    height: 0.2px;
+}
+
+ul a {
+    display: block;
+    padding-top: 15px;
+    font-size: 0.87rem;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #686968;
+}
+
+ul p {
+    height: 32px;
+    font-weight: bold;
+}
+
+ul a:hover {
+    color: black;
+}
+
+.footer-panel1-ul{
+    margin-right: auto;
+    display: flex;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: -9px;
+    padding-right: 50px;
+    padding-left: 51px;
+    gap: 49px;
+}
+
+.footer-panel1 {
+    display: flex;
+    
+}
+
+.footer-panel2-country-logo {
+    margin-left: 20px;
+    padding-top: 75px;
+    padding-right: 5px;
+}
+
+.footer-panel2-country p {
+    padding-right: 86px;
+    padding-top: 60px;
+}
+
+.footer-copyright {
+    display: flex;
+    gap: 15px;
+    margin-left: 80px;
+    height: 50px;
+    margin-bottom: 50px;
+    color: #686968;
+    font-size: 0.9rem;
+    font-weight: bold;
+    line-height: 1.5;
+
+}
+
+.footer-copyright p:hover {
+    color: black;
+}
